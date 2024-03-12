@@ -4,6 +4,13 @@
 
 const divRed = document.createElement("div");
 console.log (divRed);
+divRed.classList.add("red-t");
+divRed.innerText = "ecco un testo di prova";
+document.body.appendChild(divRed);
+
 
 const divGreen = document.createElement("div");
 console.log (divGreen);
+divGreen.classList.add("green-t"); 
+divGreen.innerText = "ecco un testo di prova";
+document.body.appendChild(divGreen);

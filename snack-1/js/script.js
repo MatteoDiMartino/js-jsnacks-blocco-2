@@ -4,7 +4,13 @@
 // chiedo di inserire un numero
 // verifico che numero è
 //  se è pari stampo
-// altrimenti se è dispari richiedo il numero che se sarà pari stampo
+// altrimenti è dispari richiedo il numero che se sarà pari stampo
 
 let userNumber = parseInt(prompt('Inserisci un numero'));
-console.log (userNumber);
+
+if (userNumber % 2 === 0) {
+    console.log(userNumber + ' il tuo numero è pari')
+} else {
+    userNumber = parseInt(prompt('il tuo numero è dispari, inserisci un nuovo numero'))
+    console.log (userNumber + ' ora il tuo numero è pari')
+}

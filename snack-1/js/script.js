@@ -11,6 +11,6 @@ let userNumber = parseInt(prompt('Inserisci un numero'));
 if (userNumber % 2 === 0) {
     console.log(userNumber + ' il tuo numero è pari')
 } else {
-    userNumber = parseInt(prompt('il tuo numero è dispari, inserisci un nuovo numero'))
+    userNumber++
     console.log (userNumber + ' ora il tuo numero è pari')
 }
